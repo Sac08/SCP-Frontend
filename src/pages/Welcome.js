@@ -28,7 +28,7 @@ class Welcome extends Component {
     <a href="http://localhost:3000/semester/" class="nav-item" active-color="green">PYQ</a>
     <a href="http://localhost:3000/readIntervieworwrite/" class="nav-item" active-color="blue">INTERVIEWS EXPERIENCES</a>
     <a href="http://localhost:3000/semester/" class="nav-item" active-color="red">VIDEOS</a>
-    <a href="#" class="nav-item" active-color="rebeccapurple">MOCK INTERVIEWS</a>
+    <a href="http://localhost:3000/mockSchedule" class="nav-item" active-color="rebeccapurple">MOCK INTERVIEWS</a>
     <a href="http://localhost:3000/aboutus/" class="nav-item" active-color="rebeccapurple">ABOUT US</a>
     <span class="nav-indicator"></span>
   </nav>
@@ -56,7 +56,7 @@ class Welcome extends Component {
             <li class="nav__list-item"><a href="http://localhost:3000/semester/" class="hover-target">PYQ</a></li>
             <li class="nav__list-item"><a href="http://localhost:3000/semester/" class="hover-target">VIDEOS</a></li>
             <li class="nav__list-item"><a href="http://localhost:3000/readIntervieworwrite" class="hover-target">INTERVIEWS EXPERIENCES</a></li>
-            <li class="nav__list-item"><a href="#" class="hover-target">MOCK INTERVIEWS</a></li>
+            <li class="nav__list-item"><a href="http://localhost:3000/mockSchedule" class="hover-target">MOCK INTERVIEWS</a></li>
             <li class="nav__list-item"><a href="http://localhost:3000/aboutus" class="hover-target">ABOUT US</a></li>
             
         </ul>
@@ -64,8 +64,6 @@ class Welcome extends Component {
     
 </div>	
 </header>
-
-
 
 <div class="sp-container">
 	<div class="sp-content">

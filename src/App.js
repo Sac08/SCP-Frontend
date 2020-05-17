@@ -25,6 +25,7 @@ import NavigationBar from './components/NavigationBar'
 import  {Col} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Home from "./components/Home";
 
 class App extends Component {
   render() {
@@ -51,6 +52,7 @@ class App extends Component {
             <Route exact path='/get' component={get} />
             <Route exact path='/verify' component={verify} />
             <Route exact path='/verified' component={verified} />
+            <Route exact path='/mockSchedule' component={Home}/>
             <Route exact path='/writeExp' component={writeExp} />
             <Route exact path='/readIntervieworwrite' component={readIntervieworwrite} />
             <Route exact path='/readExperiences' component={readExperiences} />
